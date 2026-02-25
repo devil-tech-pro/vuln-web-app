@@ -36,12 +36,10 @@ npm init -y
 npm install express sqlite3 body-parser
 ```
 
-### 4️⃣ Create Main File
+### 4️⃣ Install session-express
 
-Create a file named:
-
-```
-app.js
+```bash
+npm install express-session
 ```
 
 Add your server code inside `app.js`.
