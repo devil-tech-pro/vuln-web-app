@@ -1,46 +1,76 @@
-Vulnerable App (Node.js + Express + SQLite)
+# 📌 Vulnerable App (Node.js + Express + SQLite)
 
-A simple Node.js web application built using Express and SQLite3 for learning and practicing web security concepts like:
+A simple Node.js web application built using **Express** and **SQLite3** for learning and practicing web security concepts.
 
-SQL Injection
+> ⚠️ This project is intentionally vulnerable and should be used only for educational purposes.
 
-Authentication flaws
+---
 
-IDOR
+## 🚀 Tech Stack
 
-CORS Misconfiguration
+- Node.js
+- Express.js
+- SQLite3
+- Body-parser
 
-Input validation issues
+---
 
-⚠️ This project is intentionally vulnerable and should be used only for educational purposes.
+## 📂 Project Setup (From Scratch)
 
-🚀 Tech Stack
+Follow these steps to create and run the project:
 
-Node.js
+### 1️⃣ Cloning the repo
+```bash
+https://github.com/devil-tech-pro/vuln-web-app.git
+```
 
-Express.js
+### 2️⃣ Initialize Node Project
 
-SQLite3
+```bash
+npm init -y
+```
 
-Body-parser
+### 3️⃣ Install Required Dependencies
 
-📂 Project Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/vuln-app.git
-cd vuln-app
-2️⃣ Install Dependencies
-npm install
-3️⃣ Start the Server
+```bash
+npm install express sqlite3 body-parser
+```
+
+### 4️⃣ Create Main File
+
+Create a file named:
+
+```
+app.js
+```
+
+Add your server code inside `app.js`.
+
+---
+
+## ▶️ Run the Application
+
+```bash
 node app.js
+```
 
-Or if using nodemon:
+Or (optional, if using nodemon):
 
+```bash
 npx nodemon app.js
+```
 
-Server will start at:
+Server will run on:
 
+```
 http://localhost:3000
-📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```
 vuln-app/
 │── node_modules/
 │── package.json
@@ -48,43 +78,33 @@ vuln-app/
 │── app.js
 │── database.db
 │── README.md
-🧪 Learning Objectives
+```
+
+---
+
+## 🧪 Learning Purpose
 
 This application can be used to practice:
 
-🔍 Finding SQL Injection vulnerabilities
+- SQL Injection
+- Authentication flaws
+- IDOR vulnerabilities
+- CORS misconfiguration
+- Input validation issues
 
-🛡️ Understanding how authentication works
+---
 
-🔐 Testing insecure endpoints
-
-🌍 Learning how CORS behaves
-
-🧨 Exploring IDOR vulnerabilities
-
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is intentionally vulnerable.
 
-Do NOT deploy this on a public server.
+- Do NOT deploy this on a public server.
+- Use only in a local testing environment.
+- For educational purposes only.
 
-Use only in local environments.
+---
 
-For educational and security research purposes only.
+## 👨‍💻 Author
 
-🛠️ Future Improvements
-
-Add JWT authentication
-
-Implement proper input validation
-
-Add secure version branch
-
-Add Docker support
-
-Add login/register system
-
-👨‍💻 Author
-
-Sumit Kumar
-Learning Backend Development & Cyber Security
+Sumit Kumar  
+Backend & Cyber Security Learner
