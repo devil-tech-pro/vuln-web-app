@@ -42,7 +42,7 @@ npm install express sqlite3 body-parser
 npm install express-session
 ```
 
-Add your server code inside `app.js`.
+
 
 ---
 
